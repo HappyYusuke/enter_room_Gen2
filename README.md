@@ -8,6 +8,22 @@ https://github.com/KIT-Happy-Robot/happymimi_apps/blob/develop/happymimi_teleop/
 
 
 
+# Usage
+競技用マスターからはサービスで立ち上げます
+|Name|Communication|Type|Input|Output|
+|----|----|----|----|----|
+|/enter_room_server|Service|EnterRoomGen2|float32 `distance`,`velocity`|bool `result`|
+
+使用している型は独自型srvなのでimportしてください
+
+happymimi_teleop:
+`from happymimi_teleop.srv import EnterRoomGen2`
+
+enter_room_Gen2:
+`from enter_room.srv import EnterRoomGen2`
+
+
+
 # Description
 主な動作、機能は以下の通りです
 * サーバーが準備できたら`Ready to set enter_room_server`と出力します
@@ -23,19 +39,3 @@ cloneしたらビルドしてください
 ```
 catkin build
 ```
-
-
-
-# Usage
-競技用マスターからはサービスで立ち上げます
-|Name|Communication|Type|Input|Output|
-|----|----|----|----|----|
-|/enter_room_server|Service|EnterRoomGen2|float32 `distance`,`velocity`|bool `result`|
-
-使用している型は独自型srvなのでimportしてください
-
-happymimi_teleop:
-`from happymimi_teleop.srv import EnterRoomGen2`
-
-enter_room_Gen2:
-`from enter_room.srv import EnterRoomGen2`
