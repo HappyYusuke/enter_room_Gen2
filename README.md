@@ -15,6 +15,12 @@ https://github.com/KIT-Happy-Robot/happymimi_apps/blob/develop/happymimi_teleop/
 * 処理が完了すると`enter_room finish [distance:指定距離, velocity:指定速度]`と`True`を返します
 * 完了しない場合はFalseを返します
 
+# build enviroment
+cloneしたらビルドしてください
+```
+catkin build
+```
+
 # Usage
 競技用マスターからはサービスで立ち上げます
 |Name|Communication|Type|Input|Output|
