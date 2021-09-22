@@ -9,5 +9,4 @@
 競技用マスターからはサービスで立ち上げます
 |Name|Communication|Type|Input|Output|
 |----|----|----|----|----|
-|/enter_room_server|Service|EnterRoomGen2|float32 [distance],[velocity]|bool [result]
-
+|/enter_room_server|Service|EnterRoomGen2|float32 `distance`,`velocity`|bool `result`
