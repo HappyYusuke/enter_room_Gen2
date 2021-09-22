@@ -27,7 +27,6 @@ catkin build
 
 
 # Usage
---
 競技用マスターからはサービスで立ち上げます
 |Name|Communication|Type|Input|Output|
 |----|----|----|----|----|
