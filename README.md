@@ -27,6 +27,7 @@ catkin build
 
 
 # Usage
+---
 競技用マスターからはサービスで立ち上げます
 |Name|Communication|Type|Input|Output|
 |----|----|----|----|----|
@@ -39,10 +40,3 @@ happymimi_teleop:
 
 enter_room_Gen2:
 `from enter_room.srv import EnterRoomGen2`
-
----
-
-ターミナルから呼び出す場合はサーバー立ち上げ後に以下のコマンドを入力してください
-```
-rosservice call /enter_room_server "distance: 0.0 velocity: 0.0"
-```
