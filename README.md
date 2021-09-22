@@ -3,7 +3,7 @@
 # Overview
 入室後の進行距離と速度を取得して、ドアが開いたら入室するサービスサーバー
 
-:warning:これはシミュレータで動きます。実機ではcmdのトピック名を変えるか、[ここ](https://github.com/KIT-Happy-Robot/happymimi_apps/blob/develop/happymimi_teleop/src/enter_roomGen2.py)からcloneしてください
+:warning:これはシミュレータで動きます。実機ではcmdのトピック名を変えるか、[こちら](https://github.com/KIT-Happy-Robot/happymimi_apps/blob/develop/happymimi_teleop/src/enter_roomGen2.py)からcloneしてください
 
 
 # Usage
