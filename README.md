@@ -10,6 +10,8 @@
 |Name|Communication|Type|Input|Output|
 |----|----|----|----|----|
 |/enter_room_server|Service|EnterRoomGen2|float32 `distance`,`velocity`|bool `result`|
+|----|----|----|----|----|
+
 使用している型は独自型srvなのでimportしてください
 happymimi_teleop:
 `from happymimi_teleop.srv import EnterRoomGen2`
