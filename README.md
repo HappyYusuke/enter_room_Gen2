@@ -1,6 +1,7 @@
 # enter_room_Gen2
 
-:warning:これはシミュレータで動きます。実機ではcmdのトピック名を変えるか、https://github.com/KIT-Happy-Robot/happymimi_apps/blob/develop/happymimi_teleop/src/enter_roomGen2.py からcloneしてください
+:warning:これはシミュレータで動きます。実機ではcmdのトピック名を変えるか、以下リンクからcloneしてください
+https://github.com/KIT-Happy-Robot/happymimi_apps/blob/develop/happymimi_teleop/src/enter_roomGen2.py
 
 # Description
 入室後の進行距離と速度を指定して、ドアが開いたら入室するパッケージ
