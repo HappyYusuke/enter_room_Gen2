@@ -9,5 +9,5 @@
 競技用マスターからはサービスで立ち上げます
 |Name|Communication|Type|Input|Output|
 |----|----|----|----|----|
-|/vmegarover/diff_drive_controller/cmd_vel|
+|/enter_room_server|Service|EnterRoomGen2|float32 [distance],[velocity]|bool [result]
 
